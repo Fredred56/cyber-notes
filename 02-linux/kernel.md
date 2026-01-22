@@ -24,3 +24,28 @@
 - `uname -r`  # kernel version
 - `lsmod`     # loaded modules
 - `dmesg`     # kernel messages
+
+# Linux Kernel (Basics)
+
+## What is the kernel?
+- The kernel is the core of Linux.
+- It manages hardware resources and provides services for programs.
+
+## Main responsibilities
+- Process management (multitasking)
+- Memory management
+- Device drivers
+- Filesystem drivers
+- Network management
+
+## Kernel vs Operating System
+- Kernel = core component
+- OS = kernel + system programs + utilities
+
+## User space vs Kernel space
+- User space: normal programs (browser, terminal tools)
+- Kernel space: kernel code (drivers, memory, processes)
+
+## Quick notes
+- Kernel communicates with programs via **system calls**
+- Most Linux distros share the same kernel base, but different tools/packages
